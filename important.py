@@ -27,3 +27,11 @@ print(count)
 #other method
 #Whenever a question involves digits of a number, try to solve it both ways:String traversal (input() and for digit in n)
 #Mathematical approach (% 10 and // 10)
+n=input()
+sum=0
+product=1
+for digit in n:
+    sum=sum+int(digit)
+    product=product*int(digit)
+print(sum)
+print(product)
